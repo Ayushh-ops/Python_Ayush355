@@ -10,3 +10,12 @@ x,y,z=f
 print(x)
 print(y)
 print(z)
+
+#globalvariable
+
+def myfunc():
+    global x
+    x="awesome"
+
+myfunc()
+print("Python is"+x)
