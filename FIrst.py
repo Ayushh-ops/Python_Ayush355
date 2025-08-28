@@ -18,4 +18,4 @@ def myfunc():
     x="awesome"
 
 myfunc()
-print("Python is" +x)
+print("Python is " +x)
